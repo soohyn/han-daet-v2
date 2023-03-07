@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "hello extensions!",
+  "name": "hello extensions of the world",
   "description": "연습하기",
   "version": "0.0.1",
   "action": {
