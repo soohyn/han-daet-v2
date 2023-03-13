@@ -2,5 +2,14 @@
   "manifest_version": 3,
   "name": "read-time",
   "description": "reading-time 따라하기",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "js": ["./scripts/content.js"],
+      "matches": [
+        "https://developer.chrome.com/docs/extensions/*",
+        "https://developer.chrome.com/docs/webstore/*"
+      ]
+    }
+  ]
 }
